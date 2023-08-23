@@ -1,0 +1,301 @@
+
+html {
+    zoom: 100%;
+    height: 100%;
+}
+body {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column ;
+}
+header {
+    height: 467px;
+    width: 100%;
+    background-image: radial-gradient(circle at top right, rgb(36, 9, 119) 0%, rgb(36, 9, 119) 48%,rgb(72, 7, 149) 48%, rgb(72, 7, 149) 53%,rgb(109, 5, 178) 53%, rgb(109, 5, 178) 56%,rgb(145, 2, 208) 56%, rgb(145, 2, 208) 69%,rgb(181, 0, 237) 69%, rgb(181, 0, 237) 100%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+main{
+    flex: 1 1 auto;
+}
+
+.logo{
+    color: #00FFF0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav{
+    height: 100px;
+    background-color: #00A3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link {
+    height: 23px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h1{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:70px;
+    margin-bottom:87px;
+}
+.info a{
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    background-color:#F00;
+    width: 221px;
+    height: 55px;
+    text-decoration: none;
+    padding:15px 40px;
+}
+
+.all-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.direction-div {
+    width: 357px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.directions h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 170px;
+}
+.direction-info h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 40px;
+}
+.direction-info {
+    height: 400px;
+}
+.direction-text {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-grow: 1;
+    min-height: 150px;
+}
+
+.try {
+    text-decoration: none;
+    background-color:#9E00FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    box-shadow: 5px 5px 5px 0 rgb(42, 41, 45);
+    margin: 5px 5px;
+    border: 5px solid #C4C4C4;
+}
+.try:hover {
+    background-color: white;
+    color:#9E00FF;
+    border: 5px dashed #9E00FF;
+}
+
+.all-teachers-div{
+    display: flex;
+    justify-content: center;
+}
+.teacher-div{
+    margin: 25px;
+    width: 190px;
+    text-align: center;
+}
+
+.teacher-div p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.teachers h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.about-us{
+    margin-top: 200px;
+    padding: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us h2{ 
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-us p{ 
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-us-text{
+    width: 574px;
+    margin-bottom: 25px;
+}
+
+.contacts h2{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 175px ;
+    margin-top: 215x;
+    }
+.contacts-div p{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer{
+    background-image: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.socials{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-info{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 70px;
+}
+.image-right{
+    width: 74px;
+    float: right;
+}
+
+.image-left{
+    width: 74px;
+    float: left;
+}
+
+.footer-socials-img{
+    float: left;
+    width: 220px;
+    margin-left: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.scuolastile{
+    float: right;
+}
+
+.phone_number{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
